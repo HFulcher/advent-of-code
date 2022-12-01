@@ -8,6 +8,9 @@
 # IF there is a blank line compare the sum to the current max
 # IF the current max is lower than the sum then replace it
 
+# Definitely could have been done more efficiently by just sorting the whole
+# list.
+
 def load_input():
     input_file = open('input.txt', 'r')
     lines = input_file.readlines()
